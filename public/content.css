@@ -1,0 +1,28 @@
+/* Styles for original articles and information pages. Self-contained. */
+.hv{margin:0;background:#020617;color:#e2e8f0;font:17px/1.7 system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.hv a{color:#fbbf24}.hv a:hover{text-decoration-thickness:2px}
+.hv-skip{position:absolute;left:-999px}.hv-skip:focus{left:1rem;top:1rem;background:#e2e8f0;color:#020617;padding:.5rem 1rem;z-index:9}
+.hv-head{display:flex;flex-wrap:wrap;gap:.75rem 2rem;align-items:baseline;justify-content:space-between;padding:1.25rem clamp(1rem,4vw,3rem);border-bottom:2px solid #1e293b}
+.hv-brand{font:800 2rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.04em;text-decoration:none;color:#e2e8f0!important;}
+.hv-head nav,.hv-foot nav{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;font-size:.9rem;font-weight:600}
+.hv-main{max-width:46rem;margin:0 auto;padding:clamp(2rem,6vw,4rem) clamp(1rem,4vw,2rem)}
+.hv-eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.12em;;color:#94a3b8;margin:0 0 .5rem}
+.hv h1{font:800 clamp(2.4rem,7vw,4rem)/1.02 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.02em;margin:0 0 1rem;text-wrap:balance}
+.hv h2{font:800 1.9rem/1.1 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.03em;margin:2.5rem 0 .75rem}
+.hv-lede{font-size:1.2rem;line-height:1.5;color:#e2e8f0;margin:0 0 1rem}
+.hv-byline{font-size:.88rem;color:#94a3b8;margin:0 0 2rem}
+.hv-quick{border-left:4px solid #f59e0b;background:#0f172a;padding:1rem 1.25rem;margin:0 0 1rem}
+.hv-quick p:last-child{margin:0}
+.hv-article li{margin:.35rem 0}
+.hv-table{overflow-x:auto;margin:1rem 0}.hv-table table{border-collapse:collapse;width:100%;font-size:.95rem}
+.hv-table th,.hv-table td{border:1px solid #1e293b;padding:.5rem .7rem;text-align:left;vertical-align:top}.hv-table th{background:#0f172a}
+.hv-sources,.hv-more{border-top:1px solid #1e293b;margin-top:2.5rem}
+.hv-cards{list-style:none;padding:0;margin:2rem 0 0;display:grid;gap:1.5rem}
+.hv-cards li{border-top:2px solid #1e293b;padding-top:1rem}.hv-cards h2{margin:.1rem 0 .4rem}.hv-cards h2 a{text-decoration:none}
+.hv-foot{border-top:2px solid #1e293b;padding:2rem clamp(1rem,4vw,3rem);font-size:.92rem}
+.hv-small{color:#94a3b8;font-size:.82rem}
+/* Home page block */
+.hv-home{max-width:72rem;margin:3rem auto;padding:0 clamp(1rem,4vw,3rem);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.hv-home h2{font:800 clamp(2rem,6vw,3.5rem)/1 system-ui,-apple-system,"Segoe UI",sans-serif;margin:0 0 .5rem}
+.hv-home ul{list-style:none;padding:0;display:grid;gap:1rem 2rem;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr))}
+.hv-home li{border-top:2px solid #1e293b;padding-top:.75rem}.hv-home li a{display:block;color:#fbbf24;font-size:1.05rem}.hv-home li span{display:block;font-size:.92rem;color:#94a3b8;margin-top:.25rem}
