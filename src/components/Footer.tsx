@@ -28,6 +28,15 @@ export default function Footer() {
           </div>
         </div>
 
+        <nav aria-label="Site information" className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-slate-400">
+          <a href="/recipes/" className="hover:text-amber-300">All recipes</a>
+          <a href="/guides/" className="hover:text-amber-300">Kitchen guides</a>
+          <a href="/about" className="hover:text-amber-300">About</a>
+          <a href="/editorial-policy" className="hover:text-amber-300">Editorial policy</a>
+          <a href="/contact" className="hover:text-amber-300">Contact</a>
+          <a href="/privacy" className="hover:text-amber-300">Privacy</a>
+        </nav>
+
         <hr className="my-8 border-slate-900" />
 
         <div className="flex flex-col items-center justify-between gap-4 text-xs text-slate-600 sm:flex-row">
